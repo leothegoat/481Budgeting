@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Budgeting.MainPage">
+
+    =<StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="Navy"
+                  >
+        <!-- Place new controls here -->
+        <Label 
+            x:Name="LoginText"
+            Text="Login" 
+           HorizontalOptions="Center"
+           VerticalOptions="Start" 
+               FontSize="Large"/>
+
+        <Label 
+            x:Name="UsernameText"
+            Text="Username: "
+            TextColor="White"
+            FontSize="Medium"
+            />
+    </StackLayout>
+
+</ContentPage>
