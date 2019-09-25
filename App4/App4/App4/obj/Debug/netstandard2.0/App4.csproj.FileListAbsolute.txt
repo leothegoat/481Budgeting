@@ -1,0 +1,12 @@
+C:\Users\javin\source\repos\App4\App4\App4\bin\Debug\netstandard2.0\App4.deps.json
+C:\Users\javin\source\repos\App4\App4\App4\bin\Debug\netstandard2.0\App4.dll
+C:\Users\javin\source\repos\App4\App4\App4\bin\Debug\netstandard2.0\App4.pdb
+C:\Users\javin\source\repos\App4\App4\App4\obj\Debug\netstandard2.0\App4.csprojAssemblyReference.cache
+C:\Users\javin\source\repos\App4\App4\App4\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\javin\source\repos\App4\App4\App4\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\javin\source\repos\App4\App4\App4\obj\Debug\netstandard2.0\App4.csproj.CoreCompileInputs.cache
+C:\Users\javin\source\repos\App4\App4\App4\obj\Debug\netstandard2.0\App4.AssemblyInfoInputs.cache
+C:\Users\javin\source\repos\App4\App4\App4\obj\Debug\netstandard2.0\App4.AssemblyInfo.cs
+C:\Users\javin\source\repos\App4\App4\App4\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\javin\source\repos\App4\App4\App4\obj\Debug\netstandard2.0\App4.dll
+C:\Users\javin\source\repos\App4\App4\App4\obj\Debug\netstandard2.0\App4.pdb

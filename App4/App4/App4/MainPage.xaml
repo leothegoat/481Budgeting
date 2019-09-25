@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="App4.MainPage">
+
+    <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="Navy">
+        
+
+        <Label 
+           x:Name="ICAM" 
+           Text="ICAM"
+           HorizontalOptions="Center"
+           VerticalOptions="Start"
+           TextColor="White"
+           FontSize="Large" 
+            />
+        <Label 
+           x:Name="Budgeting" 
+           Text="Budgeting"
+           HorizontalOptions="Center"
+           VerticalOptions="Start"
+           TextColor="White"
+           FontSize="Large" 
+            />
+        <Label 
+           x:Name="Login" 
+           Text="Login"
+           HorizontalOptions="Center"
+           VerticalOptions="Start"
+           TextColor="White"
+           FontSize="Large" 
+            />
+       
+        <Entry
+            Placeholder="Username"
+            PlaceholderColor="White"
+            VerticalOptions="End"
+            TextColor="White"
+            />
+        
+        <Entry
+            Placeholder="Password"
+            PlaceholderColor="White"  
+            IsPassword="True"
+            VerticalOptions="End"
+            TextColor="White"
+            />
+            
+
+        <Button
+            Text="Sign In"
+            BackgroundColor="Navy"
+            TextColor="White"
+            />
+        <Button
+            Text="Register"
+            BackgroundColor="Navy"
+            TextColor="White"
+            />
+    </StackLayout>
+
+</ContentPage>
+
+
+
+
+
+        
+   
