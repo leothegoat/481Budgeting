@@ -6,22 +6,62 @@
              mc:Ignorable="d"
              x:Class="Budgeting.MainPage">
 
-    =<StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="Navy"
-                  >
-        <!-- Place new controls here -->
-        <Label 
-            x:Name="LoginText"
-            Text="Login" 
-           HorizontalOptions="Center"
-           VerticalOptions="Start" 
-               FontSize="Large"/>
+
+    <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="Navy">
+        
 
         <Label 
-            x:Name="UsernameText"
-            Text="Username: "
+           x:Name="ICAM" 
+           Text="ICAM"
+           HorizontalOptions="Center"
+           VerticalOptions="Start"
+           TextColor="White"
+           FontSize="Large" 
+            />
+        <Label 
+           x:Name="Budgeting" 
+           Text="Budgeting"
+           HorizontalOptions="Center"
+           VerticalOptions="Start"
+           TextColor="White"
+           FontSize="Large" 
+            />
+        <Label 
+           x:Name="Login" 
+           Text="Login"
+           HorizontalOptions="Center"
+           VerticalOptions="Start"
+           TextColor="White"
+           FontSize="Large" 
+            />
+       
+        <Entry
+            Placeholder="Username"
+            PlaceholderColor="White"
+            VerticalOptions="End"
             TextColor="White"
-            FontSize="Medium"
+            />
+        
+        <Entry
+            Placeholder="Password"
+            PlaceholderColor="White"  
+            IsPassword="True"
+            VerticalOptions="End"
+            TextColor="White"
+            />
+            
+
+        <Button
+            Text="Sign In"
+            BackgroundColor="Navy"
+            TextColor="White"
+            />
+        <Button
+            Text="Register"
+            BackgroundColor="Navy"
+            TextColor="White"
             />
     </StackLayout>
 
 </ContentPage>
+
