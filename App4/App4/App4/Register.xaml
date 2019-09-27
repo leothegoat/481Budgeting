@@ -7,20 +7,34 @@
              x:Class="App4.Register">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Register"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Label
+                Text="Register"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center"
+                FontSize="Large"   
+                FontAttributes="Bold"
+                   />
             <Entry
+            HorizontalTextAlignment="Start"
             Placeholder="Enter Username"
             PlaceholderColor="Black"
-            VerticalOptions="End"
+            VerticalOptions="Center"
+            FontSize="Medium"
             TextColor="Black"
             />
 
             <Entry
             Placeholder="Enter Password"
             PlaceholderColor="Black"  
-            VerticalOptions="End"
+            VerticalOptions="Center"
+            IsPassword="True"
+            TextColor="Black"
+            />
+            <Entry
+            Placeholder="Re-enter Password"
+            PlaceholderColor="Black"  
+            VerticalOptions="Center"
+            IsPassword="True"
             TextColor="Black"
             />
         </StackLayout>
