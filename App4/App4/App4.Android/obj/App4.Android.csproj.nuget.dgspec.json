@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\javin\\source\\repos\\App4\\App4\\App4.Android\\App4.Android.csproj": {}
+    "C:\\Users\\javin\\OneDrive\\Documents\\GitHub\\481\\App4\\App4\\App4.Android\\App4.Android.csproj": {}
   },
   "projects": {
-    "C:\\Users\\javin\\source\\repos\\App4\\App4\\App4.Android\\App4.Android.csproj": {
+    "C:\\Users\\javin\\OneDrive\\Documents\\GitHub\\481\\App4\\App4\\App4.Android\\App4.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\javin\\source\\repos\\App4\\App4\\App4.Android\\App4.Android.csproj",
+        "projectUniqueName": "C:\\Users\\javin\\OneDrive\\Documents\\GitHub\\481\\App4\\App4\\App4.Android\\App4.Android.csproj",
         "projectName": "App4.Android",
-        "projectPath": "C:\\Users\\javin\\source\\repos\\App4\\App4\\App4.Android\\App4.Android.csproj",
+        "projectPath": "C:\\Users\\javin\\OneDrive\\Documents\\GitHub\\481\\App4\\App4\\App4.Android\\App4.Android.csproj",
         "packagesPath": "C:\\Users\\javin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\javin\\source\\repos\\App4\\App4\\App4.Android\\obj\\",
+        "outputPath": "C:\\Users\\javin\\OneDrive\\Documents\\GitHub\\481\\App4\\App4\\App4.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -32,8 +32,8 @@
         "frameworks": {
           "monoandroid90": {
             "projectReferences": {
-              "C:\\Users\\javin\\source\\repos\\App4\\App4\\App4\\App4.csproj": {
-                "projectPath": "C:\\Users\\javin\\source\\repos\\App4\\App4\\App4\\App4.csproj"
+              "C:\\Users\\javin\\OneDrive\\Documents\\GitHub\\481\\App4\\App4\\App4\\App4.csproj": {
+                "projectPath": "C:\\Users\\javin\\OneDrive\\Documents\\GitHub\\481\\App4\\App4\\App4\\App4.csproj"
               }
             }
           }
@@ -82,14 +82,14 @@
         }
       }
     },
-    "C:\\Users\\javin\\source\\repos\\App4\\App4\\App4\\App4.csproj": {
+    "C:\\Users\\javin\\OneDrive\\Documents\\GitHub\\481\\App4\\App4\\App4\\App4.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\javin\\source\\repos\\App4\\App4\\App4\\App4.csproj",
+        "projectUniqueName": "C:\\Users\\javin\\OneDrive\\Documents\\GitHub\\481\\App4\\App4\\App4\\App4.csproj",
         "projectName": "App4",
-        "projectPath": "C:\\Users\\javin\\source\\repos\\App4\\App4\\App4\\App4.csproj",
+        "projectPath": "C:\\Users\\javin\\OneDrive\\Documents\\GitHub\\481\\App4\\App4\\App4\\App4.csproj",
         "packagesPath": "C:\\Users\\javin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\javin\\source\\repos\\App4\\App4\\App4\\obj\\",
+        "outputPath": "C:\\Users\\javin\\OneDrive\\Documents\\GitHub\\481\\App4\\App4\\App4\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

@@ -563,11 +563,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\javin\\source\\repos\\App4\\App4\\App4\\App4.csproj",
+      "projectUniqueName": "C:\\Users\\javin\\OneDrive\\Documents\\GitHub\\481\\App4\\App4\\App4\\App4.csproj",
       "projectName": "App4",
-      "projectPath": "C:\\Users\\javin\\source\\repos\\App4\\App4\\App4\\App4.csproj",
+      "projectPath": "C:\\Users\\javin\\OneDrive\\Documents\\GitHub\\481\\App4\\App4\\App4\\App4.csproj",
       "packagesPath": "C:\\Users\\javin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\javin\\source\\repos\\App4\\App4\\App4\\obj\\",
+      "outputPath": "C:\\Users\\javin\\OneDrive\\Documents\\GitHub\\481\\App4\\App4\\App4\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
