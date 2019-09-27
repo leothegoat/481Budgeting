@@ -22,5 +22,10 @@ namespace App4
         {
             await Navigation.PushAsync(new Register());
         }
+
+        private async void Login_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Navigation());
+        }
     }
 }
