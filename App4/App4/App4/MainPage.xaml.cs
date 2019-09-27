@@ -17,5 +17,10 @@ namespace App4
         {
             InitializeComponent();
         }
+
+        void Register_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Register());
+        }
     }
 }

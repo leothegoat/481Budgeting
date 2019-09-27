@@ -54,11 +54,15 @@
             Text="Sign In"
             BackgroundColor="Navy"
             TextColor="White"
+            Clicked="Register_Clicked"
             />
+        
         <Button
+            x:Name="Register"
             Text="Register"
             BackgroundColor="Navy"
             TextColor="White"
+            Clicked="Register_Clicked"
             />
     </StackLayout>
 
