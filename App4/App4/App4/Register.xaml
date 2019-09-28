@@ -7,13 +7,29 @@
              x:Class="App4.Register">
     <ContentPage.Content>
         <StackLayout>
+            <Label/>
             <Label
-                Text="Register"
+                Text="Create User"
                 VerticalOptions="Center" 
                 HorizontalOptions="Center"
-                FontSize="Large"   
+                FontSize="40.0"   
                 FontAttributes="Bold"
+                TextColor="Black"
+                TextDecorations="Underline"
                    />
+            <Label/>
+            <Label/>
+            <Label/>
+
+            <Entry
+                HorizontalTextAlignment="Start"
+                Placeholder="Enter Email"
+                PlaceholderColor="Black"
+                VerticalOptions="Center"
+                FontSize="Medium"
+                TextColor="Black"
+                 />
+
             <Entry
             HorizontalTextAlignment="Start"
             Placeholder="Enter Username"
@@ -36,6 +52,11 @@
             VerticalOptions="Center"
             IsPassword="True"
             TextColor="Black"
+            />
+
+            <Button
+            Text="Create Account"
+            Clicked="CreateAccount_Clicked"
             />
         </StackLayout>
     </ContentPage.Content>

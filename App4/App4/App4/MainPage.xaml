@@ -7,32 +7,26 @@
              x:Class="App4.MainPage">
 
     <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="Navy">
-
+        <BoxView Color="Navy"/>
 
         <Label 
            x:Name="EZBudget" 
            Text="EZBudget"
            HorizontalOptions="Center"
            VerticalOptions="Start"
-           TextColor="White"
-           FontSize="Header" 
-                     
+           TextColor="WhiteSmoke"
+           FontSize="72.0" 
+           FontAttributes="Bold"
+           TextDecorations="Underline"       
             />
+        
         <Label 
-           x:Name="Budgeting" 
-           Text="Budgeting"
+           x:Name="Slogan" 
+           Text="Budgeting Made Easy"
            HorizontalOptions="Center"
            VerticalOptions="Start"
            TextColor="White"
-           FontSize="Large" 
-            />
-        <Label 
-           x:Name="Login" 
-           Text="Login"
-           HorizontalOptions="Center"
-           VerticalOptions="Start"
-           TextColor="White"
-           FontSize="Large" 
+           FontSize="Medium" 
             />
        
         <Entry

@@ -8,12 +8,8 @@
     <ContentPage.Content>
         <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="Navy" >
 
-            <Label Text="Navigation"
-                FontSize="Large"   
-                TextColor="White"
-                VerticalOptions="Start" 
-                HorizontalOptions="CenterAndExpand" />
             
+
             <Button
             Grid.Row="1"
             Grid.Column="2"

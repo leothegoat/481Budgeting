@@ -16,5 +16,10 @@ namespace App4
         {
             InitializeComponent();
         }
+
+        internal static Task PushAsync(Navigation navigation)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
