@@ -7,15 +7,16 @@
              x:Class="App4.MainPage">
 
     <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="Navy">
-        
+
 
         <Label 
-           x:Name="ICAM" 
-           Text="ICAM"
+           x:Name="EZBudget" 
+           Text="EZBudget"
            HorizontalOptions="Center"
            VerticalOptions="Start"
            TextColor="White"
-           FontSize="Large" 
+           FontSize="Header" 
+                     
             />
         <Label 
            x:Name="Budgeting" 
