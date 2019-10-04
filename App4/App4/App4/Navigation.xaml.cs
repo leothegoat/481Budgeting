@@ -21,5 +21,17 @@ namespace App4
         {
             throw new NotImplementedException();
         }
+
+        private async void Choose_Transaction_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new ChooseTransaction());
+        }
+
     }
 }
+
+
+
+
+
+

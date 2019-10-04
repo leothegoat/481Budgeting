@@ -38,3 +38,4 @@ C:\Users\leoth\Desktop\Branch\481\App4\App4\App4\obj\Debug\netstandard2.0\App4.p
 C:\Users\leoth\Desktop\Branch\481\App4\App4\App4\obj\Debug\netstandard2.0\Navigation.xaml.g.cs
 C:\Users\javin\OneDrive\Documents\GitHub\481\App4\App4\App4\obj\Debug\netstandard2.0\Navigation.xaml.g.cs
 C:\Users\javin\OneDrive\Documents\GitHub\481\App4\App4\App4\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\javin\OneDrive\Documents\GitHub\481\App4\App4\App4\obj\Debug\netstandard2.0\ChooseTransaction.xaml.g.cs
