@@ -43,6 +43,10 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
+            "FirebaseTokenGenerator": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
@@ -56,10 +60,6 @@
             "Xamarin.Forms": {
               "target": "Package",
               "version": "[4.1.0.555618, )"
-            },
-            "sqlite-net-pcl": {
-              "target": "Package",
-              "version": "[1.6.292, )"
             }
           },
           "imports": [
