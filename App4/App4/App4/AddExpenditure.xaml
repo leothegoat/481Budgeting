@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="App4.AddExpenditure">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="Navy">
+
+            <Entry
+            Placeholder="$0"
+            PlaceholderColor="White"
+            FontSize="Medium"
+            VerticalOptions="End"
+            HorizontalOptions="CenterAndExpand"
+            TextColor="White"
+            />
+
+
+            <Button
+            Text="Add Expense"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+            BackgroundColor="Navy"
+            TextColor="White"
+            />
+     
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

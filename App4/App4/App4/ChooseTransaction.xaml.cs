@@ -16,5 +16,13 @@ namespace App4
         {
             InitializeComponent();
         }
+        private async void AddDeposit_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new AddDeposit());
+        }
+        private async void AddExpenditure_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new AddExpenditure());
+        }
     }
 }

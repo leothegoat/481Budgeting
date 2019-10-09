@@ -28,6 +28,7 @@
                 FontSize="Large"
                 TextColor="White"
                 BackgroundColor="Navy"
+                Clicked="AddExpenditure_Clicked"
                 />
             
             <Label/>
@@ -39,6 +40,7 @@
                 FontSize="Large"
                 TextColor="White"
                 BackgroundColor="Navy"
+                Clicked="AddDeposit_Clicked"
                 />
         </StackLayout>
     </ContentPage.Content>
