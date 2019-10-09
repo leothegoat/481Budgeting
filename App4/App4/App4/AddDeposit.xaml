@@ -12,9 +12,13 @@
             Placeholder="$0"
             PlaceholderColor="White"
             FontSize="Medium"
+            BackgroundColor="White"
             VerticalOptions="End"
             HorizontalOptions="CenterAndExpand"
-            TextColor="White"
+            TextColor="Black"
+            FontAttributes="Bold"
+            WidthRequest="75"
+            Keyboard="Numeric"
             />
 
 
