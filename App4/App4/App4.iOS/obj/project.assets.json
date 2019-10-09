@@ -2,15 +2,6 @@
   "version": 3,
   "targets": {
     "Xamarin.iOS,Version=v1.0": {
-      "FirebaseTokenGenerator/2.0.0": {
-        "type": "package",
-        "dependencies": {
-          "JWT": "1.3.1"
-        }
-      },
-      "JWT/1.3.1": {
-        "type": "package"
-      },
       "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
@@ -162,7 +153,6 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "FirebaseTokenGenerator": "2.0.0",
           "Xamarin.Essentials": "1.1.0",
           "Xamarin.Forms": "4.1.0.555618"
         },
@@ -175,15 +165,6 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win": {
-      "FirebaseTokenGenerator/2.0.0": {
-        "type": "package",
-        "dependencies": {
-          "JWT": "1.3.1"
-        }
-      },
-      "JWT/1.3.1": {
-        "type": "package"
-      },
       "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
@@ -335,7 +316,6 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "FirebaseTokenGenerator": "2.0.0",
           "Xamarin.Essentials": "1.1.0",
           "Xamarin.Forms": "4.1.0.555618"
         },
@@ -348,15 +328,6 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x64": {
-      "FirebaseTokenGenerator/2.0.0": {
-        "type": "package",
-        "dependencies": {
-          "JWT": "1.3.1"
-        }
-      },
-      "JWT/1.3.1": {
-        "type": "package"
-      },
       "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
@@ -508,7 +479,6 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "FirebaseTokenGenerator": "2.0.0",
           "Xamarin.Essentials": "1.1.0",
           "Xamarin.Forms": "4.1.0.555618"
         },
@@ -521,15 +491,6 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x86": {
-      "FirebaseTokenGenerator/2.0.0": {
-        "type": "package",
-        "dependencies": {
-          "JWT": "1.3.1"
-        }
-      },
-      "JWT/1.3.1": {
-        "type": "package"
-      },
       "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
@@ -681,7 +642,6 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "FirebaseTokenGenerator": "2.0.0",
           "Xamarin.Essentials": "1.1.0",
           "Xamarin.Forms": "4.1.0.555618"
         },
@@ -695,30 +655,6 @@
     }
   },
   "libraries": {
-    "FirebaseTokenGenerator/2.0.0": {
-      "sha512": "1sbXKqOaMGu4uq6pvZXOL2lOO+Jgbx7t+RQYEUY8tIBzFxwHQ4q75Gf0Bk2Yx+yyrtteG8S3zZDs0nIJibifAw==",
-      "type": "package",
-      "path": "firebasetokengenerator/2.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "firebasetokengenerator.2.0.0.nupkg.sha512",
-        "firebasetokengenerator.nuspec",
-        "lib/net35/FirebaseTokenGenerator.dll"
-      ]
-    },
-    "JWT/1.3.1": {
-      "sha512": "BfucgCE8IB4HFCTvcxc3AFbt2kpOwq6LiUXyF8OoQqT+/NvBHiWRxnWJbyPA1Kvx2m6vMjxiWTJYVo3yRWt3Rg==",
-      "type": "package",
-      "path": "jwt/1.3.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "jwt.1.3.1.nupkg.sha512",
-        "jwt.nuspec",
-        "lib/3.5/JWT.dll"
-      ]
-    },
     "System.Numerics.Vectors/4.5.0": {
       "sha512": "QQTlPTl06J/iiDbJCiepZ4H//BVraReU4O4EoRw1U02H5TLUIT7xn3GnDp9AXPSlJUDyFs4uWjWafNX6WrAojQ==",
       "type": "package",
@@ -1133,79 +1069,5 @@
         "#import": []
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1202",
-      "level": "Error",
-      "message": "Package FirebaseTokenGenerator 2.0.0 is not compatible with xamarinios10 (Xamarin.iOS,Version=v1.0). Package FirebaseTokenGenerator 2.0.0 supports: net35 (.NETFramework,Version=v3.5)",
-      "libraryId": "FirebaseTokenGenerator",
-      "targetGraphs": [
-        "Xamarin.iOS,Version=v1.0"
-      ]
-    },
-    {
-      "code": "NU1202",
-      "level": "Error",
-      "message": "Package JWT 1.3.1 is not compatible with xamarinios10 (Xamarin.iOS,Version=v1.0). Package JWT 1.3.1 supports: net35 (.NETFramework,Version=v3.5)",
-      "libraryId": "JWT",
-      "targetGraphs": [
-        "Xamarin.iOS,Version=v1.0"
-      ]
-    },
-    {
-      "code": "NU1202",
-      "level": "Error",
-      "message": "Package FirebaseTokenGenerator 2.0.0 is not compatible with xamarinios10 (Xamarin.iOS,Version=v1.0) / win. Package FirebaseTokenGenerator 2.0.0 supports: net35 (.NETFramework,Version=v3.5)",
-      "libraryId": "FirebaseTokenGenerator",
-      "targetGraphs": [
-        "Xamarin.iOS,Version=v1.0/win"
-      ]
-    },
-    {
-      "code": "NU1202",
-      "level": "Error",
-      "message": "Package JWT 1.3.1 is not compatible with xamarinios10 (Xamarin.iOS,Version=v1.0) / win. Package JWT 1.3.1 supports: net35 (.NETFramework,Version=v3.5)",
-      "libraryId": "JWT",
-      "targetGraphs": [
-        "Xamarin.iOS,Version=v1.0/win"
-      ]
-    },
-    {
-      "code": "NU1202",
-      "level": "Error",
-      "message": "Package FirebaseTokenGenerator 2.0.0 is not compatible with xamarinios10 (Xamarin.iOS,Version=v1.0) / win-x64. Package FirebaseTokenGenerator 2.0.0 supports: net35 (.NETFramework,Version=v3.5)",
-      "libraryId": "FirebaseTokenGenerator",
-      "targetGraphs": [
-        "Xamarin.iOS,Version=v1.0/win-x64"
-      ]
-    },
-    {
-      "code": "NU1202",
-      "level": "Error",
-      "message": "Package JWT 1.3.1 is not compatible with xamarinios10 (Xamarin.iOS,Version=v1.0) / win-x64. Package JWT 1.3.1 supports: net35 (.NETFramework,Version=v3.5)",
-      "libraryId": "JWT",
-      "targetGraphs": [
-        "Xamarin.iOS,Version=v1.0/win-x64"
-      ]
-    },
-    {
-      "code": "NU1202",
-      "level": "Error",
-      "message": "Package FirebaseTokenGenerator 2.0.0 is not compatible with xamarinios10 (Xamarin.iOS,Version=v1.0) / win-x86. Package FirebaseTokenGenerator 2.0.0 supports: net35 (.NETFramework,Version=v3.5)",
-      "libraryId": "FirebaseTokenGenerator",
-      "targetGraphs": [
-        "Xamarin.iOS,Version=v1.0/win-x86"
-      ]
-    },
-    {
-      "code": "NU1202",
-      "level": "Error",
-      "message": "Package JWT 1.3.1 is not compatible with xamarinios10 (Xamarin.iOS,Version=v1.0) / win-x86. Package JWT 1.3.1 supports: net35 (.NETFramework,Version=v3.5)",
-      "libraryId": "JWT",
-      "targetGraphs": [
-        "Xamarin.iOS,Version=v1.0/win-x86"
-      ]
-    }
-  ]
+  }
 }

@@ -2,27 +2,6 @@
   "version": 3,
   "targets": {
     ".NETStandard,Version=v2.0": {
-      "FirebaseTokenGenerator/2.0.0": {
-        "type": "package",
-        "dependencies": {
-          "JWT": "1.3.1"
-        },
-        "compile": {
-          "lib/net35/FirebaseTokenGenerator.dll": {}
-        },
-        "runtime": {
-          "lib/net35/FirebaseTokenGenerator.dll": {}
-        }
-      },
-      "JWT/1.3.1": {
-        "type": "package",
-        "compile": {
-          "lib/3.5/JWT.dll": {}
-        },
-        "runtime": {
-          "lib/3.5/JWT.dll": {}
-        }
-      },
       "Microsoft.NETCore.Platforms/1.1.0": {
         "type": "package",
         "compile": {
@@ -88,30 +67,6 @@
     }
   },
   "libraries": {
-    "FirebaseTokenGenerator/2.0.0": {
-      "sha512": "1sbXKqOaMGu4uq6pvZXOL2lOO+Jgbx7t+RQYEUY8tIBzFxwHQ4q75Gf0Bk2Yx+yyrtteG8S3zZDs0nIJibifAw==",
-      "type": "package",
-      "path": "firebasetokengenerator/2.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "firebasetokengenerator.2.0.0.nupkg.sha512",
-        "firebasetokengenerator.nuspec",
-        "lib/net35/FirebaseTokenGenerator.dll"
-      ]
-    },
-    "JWT/1.3.1": {
-      "sha512": "BfucgCE8IB4HFCTvcxc3AFbt2kpOwq6LiUXyF8OoQqT+/NvBHiWRxnWJbyPA1Kvx2m6vMjxiWTJYVo3yRWt3Rg==",
-      "type": "package",
-      "path": "jwt/1.3.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "jwt.1.3.1.nupkg.sha512",
-        "jwt.nuspec",
-        "lib/3.5/JWT.dll"
-      ]
-    },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "sha512": "kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
       "type": "package",
@@ -595,7 +550,6 @@
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
-      "FirebaseTokenGenerator >= 2.0.0",
       "NETStandard.Library >= 2.0.3",
       "Xamarin.Essentials >= 1.1.0",
       "Xamarin.Forms >= 4.1.0.555618"
@@ -645,10 +599,6 @@
     "frameworks": {
       "netstandard2.0": {
         "dependencies": {
-          "FirebaseTokenGenerator": {
-            "target": "Package",
-            "version": "[2.0.0, )"
-          },
           "NETStandard.Library": {
             "suppressParent": "All",
             "target": "Package",
@@ -665,33 +615,17 @@
           }
         },
         "imports": [
-          "net461"
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
         ],
         "assetTargetFallback": true,
-        "warn": true
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'FirebaseTokenGenerator 2.0.0' was restored using '.NETFramework,Version=v4.6.1' instead of the project target framework '.NETStandard,Version=v2.0'. This package may not be fully compatible with your project.",
-      "libraryId": "FirebaseTokenGenerator",
-      "targetGraphs": [
-        ".NETStandard,Version=v2.0"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'JWT 1.3.1' was restored using '.NETFramework,Version=v4.6.1' instead of the project target framework '.NETStandard,Version=v2.0'. This package may not be fully compatible with your project.",
-      "libraryId": "JWT",
-      "targetGraphs": [
-        ".NETStandard,Version=v2.0"
-      ]
-    }
-  ]
+  }
 }

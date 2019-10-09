@@ -11,13 +11,8 @@
             <Label/>
             <Label/>
             <Image
-            Source="Images\DollarBill.png"      
-            WidthRequest="100"
-            HeightRequest="50"
-            VerticalOptions="FillAndExpand"
-            HorizontalOptions="FillAndExpand"
-            IsVisible="True"
-            IsEnabled="True"
+            Source="DollarBill.png"
+            
                 />
             <Label/>
             <Label/>
@@ -28,6 +23,7 @@
             BackgroundColor="Navy"
             TextColor="White"
             HorizontalOptions="Center"
+            
             />
 
             <Button
