@@ -9,6 +9,8 @@
     <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="Navy">
         <BoxView Color="Navy"/>
 
+        
+        
         <Label 
            x:Name="EZBudget" 
            Text="EZBudget"
@@ -28,7 +30,8 @@
            TextColor="White"
            FontSize="Medium" 
             />
-       
+
+
         <Entry
             Placeholder="Username"
             PlaceholderColor="White"
@@ -59,6 +62,8 @@
             TextColor="White"
             Clicked="Register_Clicked"
             />
+
+        
     </StackLayout>
 
 </ContentPage>

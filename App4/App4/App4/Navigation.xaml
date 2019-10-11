@@ -44,6 +44,15 @@
             TextColor="White"
             HorizontalOptions="Center"
             />
+
+            <Button
+            Text="Log Out"   
+            FontSize="Medium"
+            BackgroundColor="Navy"
+            TextColor="White"
+            HorizontalOptions="Center"
+            Clicked="LogOut_Clicked"
+                />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

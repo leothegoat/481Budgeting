@@ -27,10 +27,10 @@ namespace App4
             await Navigation.PushAsync(new ChooseTransaction());
         }
 
-        /*private async void expense_graph(object sender, EventArgs e)
+        private async void LogOut_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new ());
-        }*/
+            await Navigation.PushAsync(new MainPage());
+        }
 
     }
 }

@@ -7,8 +7,12 @@
              x:Class="App4.ChooseTransaction">
     <ContentPage.Content>
         <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="Navy">
-            <Label/>
-            <Label/>
+            <Image
+        Scale="1"
+        VerticalOptions="Start" 
+        Source="golddollar.png"
+        />
+         
             
             <Label Text="Choose Type: "
                 FontSize="40.0"
@@ -17,9 +21,7 @@
                 TextDecorations="Underline"
                 HorizontalOptions="Center"
                    />
-            <Label/>
-            <Label/>
-            <Label/>
+            
             <Label/>
             <Label/>
 
@@ -31,7 +33,7 @@
                 Clicked="AddExpenditure_Clicked"
                 />
             
-            <Label/>
+          
             <Label/>
             <Label/>
             
