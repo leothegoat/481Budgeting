@@ -8,33 +8,26 @@
     <ContentPage.Content>
         <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="Navy">
 
+            <Label
+                VerticalOptions="Start"
+                HorizontalOptions="Start"
+                TextColor="White"
+                Text="Enter Amount"
+                FontSize="Medium"
+                />
+
             <Entry
             Placeholder="$0"
             PlaceholderColor="Black"
             FontSize="Medium"
             FontAttributes="Bold"
             BackgroundColor="White"
-            VerticalOptions="End"
+            VerticalOptions="Start"
             HorizontalOptions="CenterAndExpand"
             TextColor="White"
             WidthRequest="75"
             Keyboard="Numeric"
             />
-
-            <Picker x:Name="picker"
-        Title="Select Category of Expense"
-        TitleColor="Black">
-                <Picker.ItemsSource>
-                    <x:Array Type="{x:Type x:String}">
-                        <x:String>Food</x:String>
-                        <x:String>Transportation</x:String>
-                        <x:String>Entertainment</x:String>
-                        <x:String>Bills</x:String>
-                        <x:String>Other</x:String>
-                    </x:Array>
-                    <Label Text="{Binding Source={x:Reference picker}, Path=SelectedItem}" />
-                </Picker.ItemsSource>
-            </Picker>
 
             <Button
             Text="Add Expense"
