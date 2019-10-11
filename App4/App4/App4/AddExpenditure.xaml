@@ -6,17 +6,16 @@
              mc:Ignorable="d"
              x:Class="App4.AddExpenditure">
     <ContentPage.Content>
-        <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="Navy">
+        <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="Navy" Padding="10">
 
             <Label
-                VerticalOptions="Start"
                 HorizontalOptions="Start"
                 TextColor="White"
                 Text="Enter Amount"
                 FontSize="Medium"
                 />
 
-            <Entry
+            <Entry x:Name="EnteredExpense"
             Placeholder="$0"
             PlaceholderColor="Black"
             FontSize="Medium"
@@ -24,9 +23,35 @@
             BackgroundColor="White"
             VerticalOptions="Start"
             HorizontalOptions="CenterAndExpand"
-            TextColor="White"
+            TextColor="Black"
             WidthRequest="75"
             Keyboard="Numeric"
+            />
+
+            <Picker x:Name="CategoryPicker" Title="Select Category" BackgroundColor="White" TextColor="Black" FontSize="Large">
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>Food</x:String>
+                        <x:String>Entertainment</x:String>
+                        <x:String>Transportation</x:String>
+                        <x:String>Bills</x:String>
+                        <x:String>Other</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+
+            <Entry
+                x:Name="EnteredDescription"
+            Placeholder="Other Infomarion"
+            PlaceholderColor="Black"
+            FontSize="Medium"
+            FontAttributes="Bold"
+            BackgroundColor="White"
+            VerticalOptions="Start"
+            HorizontalOptions="CenterAndExpand"
+            TextColor="Black"
+            WidthRequest="150"
+             
             />
 
             <Button
@@ -35,8 +60,9 @@
             HorizontalOptions="Center"
             BackgroundColor="Navy"
             TextColor="White"
+            FontSize="Large"
             />
-     
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
