@@ -7,33 +7,41 @@
              x:Class="App4.AddDeposit">
     <ContentPage.Content>
         <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="Navy">
+            <Label/>
+            <Label/>
+            <Label/>
+            <Label/>
+            <Label/>
+            <Label/>
+
             <Label
-                VerticalOptions="Start"
-                HorizontalOptions="Start"
+                VerticalOptions="Center"
+                HorizontalOptions="Center"
                 TextColor="White"
                 Text="Enter Amount"
-                FontSize="Medium"
+                FontSize="40"
                 />
             <Entry
             Placeholder="$0"
             PlaceholderColor="White"
-            FontSize="Medium"
-            BackgroundColor="White"
-            VerticalOptions="Start"
-            HorizontalOptions="CenterAndExpand"
-            TextColor="Black"
+            FontSize="40"
+            BackgroundColor="Navy"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+            TextColor="White"
             FontAttributes="Bold"
-            WidthRequest="75"
+            WidthRequest="100"
             Keyboard="Numeric"
             />
-
-
+            <Label/>
+            <Label/>
             <Button
             Text="Deposit"
             VerticalOptions="Center"
             HorizontalOptions="Center"
             BackgroundColor="Navy"
             TextColor="White"
+            FontSize="45"
             />
         </StackLayout>
     </ContentPage.Content>
