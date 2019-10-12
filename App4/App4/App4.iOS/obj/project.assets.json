@@ -1006,24 +1006,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\javin\\.nuget\\packages\\": {},
+    "C:\\Users\\leoth\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\javin\\OneDrive\\Documents\\GitHub\\481Budgeting\\App4\\App4\\App4.iOS\\App4.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\leoth\\Desktop\\Oct11\\App4\\App4\\App4.iOS\\App4.iOS.csproj",
       "projectName": "App4.iOS",
-      "projectPath": "C:\\Users\\javin\\OneDrive\\Documents\\GitHub\\481Budgeting\\App4\\App4\\App4.iOS\\App4.iOS.csproj",
-      "packagesPath": "C:\\Users\\javin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\javin\\OneDrive\\Documents\\GitHub\\481Budgeting\\App4\\App4\\App4.iOS\\obj\\",
+      "projectPath": "C:\\Users\\leoth\\Desktop\\Oct11\\App4\\App4\\App4.iOS\\App4.iOS.csproj",
+      "packagesPath": "C:\\Users\\leoth\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\leoth\\Desktop\\Oct11\\App4\\App4\\App4.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\javin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\leoth\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -1037,8 +1037,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\javin\\OneDrive\\Documents\\GitHub\\481Budgeting\\App4\\App4\\App4\\App4.csproj": {
-              "projectPath": "C:\\Users\\javin\\OneDrive\\Documents\\GitHub\\481Budgeting\\App4\\App4\\App4\\App4.csproj"
+            "C:\\Users\\leoth\\Desktop\\Oct11\\App4\\App4\\App4\\App4.csproj": {
+              "projectPath": "C:\\Users\\leoth\\Desktop\\Oct11\\App4\\App4\\App4\\App4.csproj"
             }
           }
         }
