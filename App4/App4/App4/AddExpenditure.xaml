@@ -61,6 +61,8 @@
             BackgroundColor="Navy"
             TextColor="White"
             FontSize="Large"
+            Clicked="AddExpense_Clicked"
+             
             />
 
         </StackLayout>
