@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\leoth\\Desktop\\Oct13\\App4\\App4\\App4.Android\\App4.Android.csproj": {}
+    "C:\\Users\\javin\\OneDrive\\Documents\\GitHub\\481Budgeting\\App4\\App4\\App4.Android\\App4.Android.csproj": {}
   },
   "projects": {
-    "C:\\Users\\leoth\\Desktop\\Oct13\\App4\\App4\\App4.Android\\App4.Android.csproj": {
+    "C:\\Users\\javin\\OneDrive\\Documents\\GitHub\\481Budgeting\\App4\\App4\\App4.Android\\App4.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\leoth\\Desktop\\Oct13\\App4\\App4\\App4.Android\\App4.Android.csproj",
+        "projectUniqueName": "C:\\Users\\javin\\OneDrive\\Documents\\GitHub\\481Budgeting\\App4\\App4\\App4.Android\\App4.Android.csproj",
         "projectName": "App4.Android",
-        "projectPath": "C:\\Users\\leoth\\Desktop\\Oct13\\App4\\App4\\App4.Android\\App4.Android.csproj",
-        "packagesPath": "C:\\Users\\leoth\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\leoth\\Desktop\\Oct13\\App4\\App4\\App4.Android\\obj\\",
+        "projectPath": "C:\\Users\\javin\\OneDrive\\Documents\\GitHub\\481Budgeting\\App4\\App4\\App4.Android\\App4.Android.csproj",
+        "packagesPath": "C:\\Users\\javin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\javin\\OneDrive\\Documents\\GitHub\\481Budgeting\\App4\\App4\\App4.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\leoth\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\javin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -32,8 +32,8 @@
         "frameworks": {
           "monoandroid90": {
             "projectReferences": {
-              "C:\\Users\\leoth\\Desktop\\Oct13\\App4\\App4\\App4\\App4.csproj": {
-                "projectPath": "C:\\Users\\leoth\\Desktop\\Oct13\\App4\\App4\\App4\\App4.csproj"
+              "C:\\Users\\javin\\OneDrive\\Documents\\GitHub\\481Budgeting\\App4\\App4\\App4\\App4.csproj": {
+                "projectPath": "C:\\Users\\javin\\OneDrive\\Documents\\GitHub\\481Budgeting\\App4\\App4\\App4\\App4.csproj"
               }
             }
           }
@@ -82,21 +82,21 @@
         }
       }
     },
-    "C:\\Users\\leoth\\Desktop\\Oct13\\App4\\App4\\App4\\App4.csproj": {
+    "C:\\Users\\javin\\OneDrive\\Documents\\GitHub\\481Budgeting\\App4\\App4\\App4\\App4.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\leoth\\Desktop\\Oct13\\App4\\App4\\App4\\App4.csproj",
+        "projectUniqueName": "C:\\Users\\javin\\OneDrive\\Documents\\GitHub\\481Budgeting\\App4\\App4\\App4\\App4.csproj",
         "projectName": "App4",
-        "projectPath": "C:\\Users\\leoth\\Desktop\\Oct13\\App4\\App4\\App4\\App4.csproj",
-        "packagesPath": "C:\\Users\\leoth\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\leoth\\Desktop\\Oct13\\App4\\App4\\App4\\obj\\",
+        "projectPath": "C:\\Users\\javin\\OneDrive\\Documents\\GitHub\\481Budgeting\\App4\\App4\\App4\\App4.csproj",
+        "packagesPath": "C:\\Users\\javin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\javin\\OneDrive\\Documents\\GitHub\\481Budgeting\\App4\\App4\\App4\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\leoth\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\javin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -134,6 +134,10 @@
             "Xamarin.Forms": {
               "target": "Package",
               "version": "[4.1.0.555618, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.6.292, )"
             }
           },
           "imports": [
