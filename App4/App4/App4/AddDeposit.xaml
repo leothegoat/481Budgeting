@@ -22,15 +22,15 @@
                 FontSize="40"
                 />
             <Entry
-            Placeholder="$0"
+            Placeholder="            $0"
             PlaceholderColor="White"
             FontSize="40"
             BackgroundColor="Navy"
             VerticalOptions="Center"
-            HorizontalOptions="Center"
+            HorizontalOptions="Center" 
             TextColor="White"
             FontAttributes="Bold"
-            WidthRequest="100"
+            WidthRequest="300"
             Keyboard="Numeric"
             />
             <Label/>

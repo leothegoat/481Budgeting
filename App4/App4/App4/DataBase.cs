@@ -17,7 +17,7 @@ namespace App4
             _DB.CreateTableAsync<UserModel>().Wait();
         }
 
-        public Task<List<UserModel>> GetUserAsync()
+      /* public Task<List<UserModel>> GetUserAsync()
         {
             return _DB.Table<UserModel>().ToListAsync();
         }
@@ -26,6 +26,6 @@ namespace App4
         {
             return _DB.InsertAsync(um);
 
-        }
+        }*/
     }
 }

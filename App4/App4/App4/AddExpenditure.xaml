@@ -9,26 +9,27 @@
         <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="Navy" Padding="10">
 
             <Label
-                HorizontalOptions="Start"
+                HorizontalOptions="Center"
                 TextColor="White"
+                FontAttributes="Bold"
                 Text="Enter Amount"
-                FontSize="Medium"
+                FontSize="30"
                 />
 
             <Entry x:Name="EnteredExpense"
-            Placeholder="$0"
-            PlaceholderColor="Black"
-            FontSize="Medium"
+            Placeholder="           $0"
+            PlaceholderColor="White"
             FontAttributes="Bold"
-            BackgroundColor="White"
+            BackgroundColor="Navy"
             VerticalOptions="Start"
             HorizontalOptions="CenterAndExpand"
-            TextColor="Black"
-            WidthRequest="75"
+            FontSize="40"
+            TextColor="White"
+            WidthRequest="300"
             Keyboard="Numeric"
             />
 
-            <Picker x:Name="CategoryPicker" Title="Select Category" BackgroundColor="White" TextColor="Black" FontSize="Large">
+            <Picker x:Name="CategoryPicker" Title="            Select Category" BackgroundColor="Navy" TitleColor="White" FontSize="30">
                 <Picker.ItemsSource>
                     <x:Array Type="{x:Type x:String}">
                         <x:String>Food</x:String>
@@ -42,15 +43,14 @@
 
             <Entry
                 x:Name="EnteredDescription"
-            Placeholder="Other Infomarion"
-            PlaceholderColor="Black"
-            FontSize="Medium"
-            FontAttributes="Bold"
-            BackgroundColor="White"
+            Placeholder="    Other Infomarion"
+            PlaceholderColor="White"
+            FontSize="30"
+            BackgroundColor="Navy"
             VerticalOptions="Start"
             HorizontalOptions="CenterAndExpand"
-            TextColor="Black"
-            WidthRequest="150"
+            TextColor="White"
+            WidthRequest="300"
              
             />
 
@@ -60,7 +60,7 @@
             HorizontalOptions="Center"
             BackgroundColor="Navy"
             TextColor="White"
-            FontSize="Large"
+            FontSize="30"
             Clicked="AddExpense_Clicked"
              
             />
