@@ -22,9 +22,18 @@ namespace App4
             throw new NotImplementedException();
         }
 
+        private async void Overview_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new OverviewPage());
+        }
         private async void Choose_Transaction_Clicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new ChooseTransaction());
+        }
+
+        private async void TransactionHistory_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new TransactionHistory());
         }
 
         private async void LogOut_Clicked(object sender, EventArgs e)

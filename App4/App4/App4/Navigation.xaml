@@ -23,7 +23,7 @@
             BackgroundColor="Navy"
             TextColor="White"
             HorizontalOptions="Center"
-            
+            Clicked="Overview_Clicked"
             />
 
             <Button
@@ -43,6 +43,7 @@
             BackgroundColor="Navy"
             TextColor="White"
             HorizontalOptions="Center"
+            Clicked="TransactionHistory_Clicked"
             />
 
             <Button

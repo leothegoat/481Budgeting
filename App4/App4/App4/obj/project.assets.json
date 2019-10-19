@@ -686,25 +686,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\javin\\.nuget\\packages\\": {},
+    "C:\\Users\\leoth\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\javin\\OneDrive\\Documents\\GitHub\\481Budgeting\\App4\\App4\\App4\\App4.csproj",
+      "projectUniqueName": "C:\\Users\\leoth\\Desktop\\Oct17\\App4\\App4\\App4\\App4.csproj",
       "projectName": "App4",
-      "projectPath": "C:\\Users\\javin\\OneDrive\\Documents\\GitHub\\481Budgeting\\App4\\App4\\App4\\App4.csproj",
-      "packagesPath": "C:\\Users\\javin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\javin\\OneDrive\\Documents\\GitHub\\481Budgeting\\App4\\App4\\App4\\obj\\",
+      "projectPath": "C:\\Users\\leoth\\Desktop\\Oct17\\App4\\App4\\App4\\App4.csproj",
+      "packagesPath": "C:\\Users\\leoth\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\leoth\\Desktop\\Oct17\\App4\\App4\\App4\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\javin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\leoth\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
