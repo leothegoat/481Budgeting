@@ -21,7 +21,7 @@
                 Text="Enter Amount"
                 FontSize="40"
                 />
-            <Entry
+            <Entry x:Name="EnteredDeposit"
             Placeholder="            $0"
             PlaceholderColor="White"
             FontSize="40"
@@ -42,6 +42,7 @@
             BackgroundColor="Navy"
             TextColor="White"
             FontSize="45"
+            Clicked="AddDeposit_Clicked"
             />
         </StackLayout>
     </ContentPage.Content>
