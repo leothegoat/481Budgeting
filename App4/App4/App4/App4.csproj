@@ -16,31 +16,31 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Update="Register.xaml.cs">
+    <Compile Update="Views\Register.xaml.cs">
       <DependentUpon>Register.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="AddDeposit.xaml">
+    <EmbeddedResource Update="Views\AddDeposit.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="AddExpenditure.xaml">
+    <EmbeddedResource Update="Views\AddExpenditure.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="ChooseTransaction.xaml">
+    <EmbeddedResource Update="Views\ChooseTransaction.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Navigation.xaml">
+    <EmbeddedResource Update="Views\Navigation.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="OverviewPage.xaml">
+    <EmbeddedResource Update="Views\OverviewPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Register.xaml">
+    <EmbeddedResource Update="Views\Register.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="TransactionHistory.xaml">
+    <EmbeddedResource Update="Views\TransactionHistory.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>

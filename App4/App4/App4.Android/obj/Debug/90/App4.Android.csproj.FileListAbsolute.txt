@@ -2008,8 +2008,6 @@ C:\Users\leoth\Desktop\481Budgeting\App4\App4\App4.Android\obj\Debug\90\stamp\_G
 C:\Users\leoth\Desktop\481Budgeting\App4\App4\App4.Android\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
 C:\Users\javin\OneDrive\Documents\GitHub\481Budgeting\App4\App4\App4.Android\bin\Debug\App4.Android.dll
 C:\Users\javin\OneDrive\Documents\GitHub\481Budgeting\App4\App4\App4.Android\bin\Debug\App4.Android.pdb
-C:\Users\javin\OneDrive\Documents\GitHub\481Budgeting\App4\App4\App4.Android\bin\Debug\com.companyname.app4.apk
-C:\Users\javin\OneDrive\Documents\GitHub\481Budgeting\App4\App4\App4.Android\bin\Debug\com.companyname.app4-Signed.apk
 C:\Users\javin\OneDrive\Documents\GitHub\481Budgeting\App4\App4\App4.Android\bin\Debug\App4.dll
 C:\Users\javin\OneDrive\Documents\GitHub\481Budgeting\App4\App4\App4.Android\bin\Debug\App4.pdb
 C:\Users\javin\OneDrive\Documents\GitHub\481Budgeting\App4\App4\App4.Android\bin\Debug\App4.dll.mdb
@@ -2031,7 +2029,6 @@ C:\Users\javin\OneDrive\Documents\GitHub\481Budgeting\App4\App4\App4.Android\obj
 C:\Users\javin\OneDrive\Documents\GitHub\481Budgeting\App4\App4\App4.Android\obj\Debug\90\App4.Android.csproj.CopyComplete
 C:\Users\javin\OneDrive\Documents\GitHub\481Budgeting\App4\App4\App4.Android\obj\Debug\90\App4.Android.dll
 C:\Users\javin\OneDrive\Documents\GitHub\481Budgeting\App4\App4\App4.Android\obj\Debug\90\App4.Android.pdb
-C:\Users\javin\OneDrive\Documents\GitHub\481Budgeting\App4\App4\App4.Android\obj\Debug\90\android\bin\com.companyname.app4.apk
 C:\Users\javin\OneDrive\Documents\GitHub\481Budgeting\App4\App4\App4.Android\obj\Debug\90\res\layout\tabbar.xml
 C:\Users\javin\OneDrive\Documents\GitHub\481Budgeting\App4\App4\App4.Android\obj\Debug\90\res\layout\toolbar.xml
 C:\Users\javin\OneDrive\Documents\GitHub\481Budgeting\App4\App4\App4.Android\obj\Debug\90\res\values\styles.xml
@@ -2478,7 +2475,6 @@ C:\Users\javin\OneDrive\Documents\GitHub\481Budgeting\App4\App4\App4.Android\obj
 C:\Users\javin\OneDrive\Documents\GitHub\481Budgeting\App4\App4\App4.Android\obj\Debug\90\android\src\md5d630c3d3bfb5f5558520331566132d97\SingleLocationListener.java
 C:\Users\javin\OneDrive\Documents\GitHub\481Budgeting\App4\App4\App4.Android\obj\Debug\90\android\src\md5d630c3d3bfb5f5558520331566132d97\TextToSpeechImplementation.java
 C:\Users\javin\OneDrive\Documents\GitHub\481Budgeting\App4\App4\App4.Android\obj\Debug\90\android\bin\packaged_resources
-C:\Users\javin\OneDrive\Documents\GitHub\481Budgeting\App4\App4\App4.Android\obj\Debug\90\android\src\com\companyname\app4\R.java
 C:\Users\javin\OneDrive\Documents\GitHub\481Budgeting\App4\App4\App4.Android\obj\Debug\90\android\bin\classes.dex
 C:\Users\javin\OneDrive\Documents\GitHub\481Budgeting\App4\App4\App4.Android\obj\Debug\90\stamp\_BuildAdditionalResourcesCache.stamp
 C:\Users\javin\OneDrive\Documents\GitHub\481Budgeting\App4\App4\App4.Android\obj\Debug\90\stamp\_CleanIntermediateIfNuGetsChange.stamp
@@ -4098,3 +4094,9 @@ C:\Users\leoth\Desktop\Oct17\App4\App4\App4.Android\obj\Debug\90\stamp\_CopyPdbF
 C:\Users\leoth\Desktop\Oct17\App4\App4\App4.Android\obj\Debug\90\stamp\_GenerateJavaStubs.stamp
 C:\Users\leoth\Desktop\Oct17\App4\App4\App4.Android\obj\Debug\90\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\leoth\Desktop\Oct17\App4\App4\App4.Android\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\javin\OneDrive\Documents\GitHub\481Budgeting\App4\App4\App4.Android\bin\Debug\EzBudeting.EzBudeting.apk
+C:\Users\javin\OneDrive\Documents\GitHub\481Budgeting\App4\App4\App4.Android\bin\Debug\EzBudeting.EzBudeting-Signed.apk
+C:\Users\javin\OneDrive\Documents\GitHub\481Budgeting\App4\App4\App4.Android\obj\Debug\90\android\bin\EzBudeting.EzBudeting.apk
+C:\Users\javin\OneDrive\Documents\GitHub\481Budgeting\App4\App4\App4.Android\obj\Debug\90\android\src\ezbudeting\ezbudeting\R.java
+C:\Users\javin\OneDrive\Documents\GitHub\481Budgeting\App4\App4\App4.Android\obj\Debug\90\res\mipmap-hdpi\dollarbill.png
+C:\Users\javin\OneDrive\Documents\GitHub\481Budgeting\App4\App4\App4.Android\obj\Debug\90\res\mipmap-anydpi-v26\dollarbill.png

@@ -6,7 +6,7 @@
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
   <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
   <application android:label="EzBudget" android:icon="@mipmap/icon" android:name="android.app.Application" android:allowBackup="true" android:debuggable="true">
-    <activity android:configChanges="orientation|screenSize" android:icon="@mipmap/icon" android:label="App4" android:theme="@style/MainTheme" android:name="md5b54ffe1e99bf540e742dd1e12c137167.MainActivity">
+    <activity android:configChanges="orientation|screenSize" android:icon="@drawable/golddollar" android:label="EzBudget" android:theme="@style/MainTheme" android:name="md5b54ffe1e99bf540e742dd1e12c137167.MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />
