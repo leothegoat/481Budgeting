@@ -18,7 +18,8 @@
             <ListView x:Name="UsernameListView">
                 <ListView.ItemTemplate>
                     <DataTemplate>
-                        <TextCell Text="{Binding username}"/>
+                        <TextCell Text="{Binding username}"
+                            TextColor="Black"/>
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>

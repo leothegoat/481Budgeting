@@ -16,6 +16,17 @@ namespace App4
         public Register()
         {
             InitializeComponent();
+            EmailEntry.Completed += UsernameEntry_Completed;
+            UsernameEntry.Completed += PasswordEntry_Completed;
+            PasswordEntry.Completed += CreateAccount_Clicked;
+        }
+        public void PasswordEntry_Completed(object sender, EventArgs e)
+        {
+            PasswordEntry.Focus();
+        }
+        public void UsernameEntry_Completed(object sender, EventArgs e)
+        {
+            UsernameEntry.Focus();
         }
 
         private async void CreateAccount_Clicked(object sender, EventArgs e)
