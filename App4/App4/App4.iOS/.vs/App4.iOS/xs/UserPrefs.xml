@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{D69A0F53-91DA-4D15-B0E5-0A343E2A8036}|Default">
+  <MonoDevelop.Ide.ItemProperties.App4.iOS automaticSigning="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.E7FC7227-B3B0-4B33-9C50-965C46ACC8D9" />
+  <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="Info.plist" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="App4.iOS" expanded="True">
+            <Node name="App4.iOS" expanded="True">
+              <Node name="Packages" expanded="True" />
+              <Node name="Assets.xcassets" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

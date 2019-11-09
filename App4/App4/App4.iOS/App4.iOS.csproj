@@ -110,6 +110,8 @@
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon20.png">
       <Visible>false</Visible>
     </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\EZBudget.appiconset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\EZBudget.appiconset\Webp.net-resizeimage.png" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -129,5 +131,12 @@
       <Project>{261408D6-7B71-48B9-A3F0-527FA1E017AB}</Project>
       <Name>App4</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Assets.xcassets\EZBudget.appiconset\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\golddollar.png" />
+    <BundleResource Include="Resources\DollarBill.png" />
   </ItemGroup>
 </Project>
