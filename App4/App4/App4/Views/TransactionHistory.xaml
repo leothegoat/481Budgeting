@@ -4,7 +4,8 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="App4.TransactionHistory">
+             x:Class="App4.TransactionHistory"
+            NavigationPage.HasNavigationBar="False">
     <ContentPage.Content>
         <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="Navy">
             <BoxView Color="Navy"/>
@@ -23,6 +24,7 @@
             
             <Button x:Name="NavButton" Text="Back" TextColor="White" FontSize="20" 
                     BackgroundColor="Navy" VerticalOptions="End" HorizontalOptions="Center" Clicked="Navigation_Clicked"></Button>
+            
 
         </StackLayout>
     </ContentPage.Content>

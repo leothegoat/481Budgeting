@@ -21,12 +21,18 @@ namespace App4
             if (String.IsNullOrWhiteSpace(EnteredDeposit.Text) == true)
                 DisplayAlert("Error", "Please Enter A Valid Amount", "Retry");
 
-            else{
+            else
+            {
                 Nullable<double> amount = Convert.ToDouble(EnteredDeposit.Text);
                 amount = Math.Round(amount.Value, 2);
                 DisplayAlert("Deposited", amount.ToString(), "Okay");
-                Navigation.PushAsync(new Navigation());  
+                Navigation.PushAsync(new Navigation());
             }
+        }
+
+        private void Cancel_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new ChooseTransaction());
         }
     }
 }

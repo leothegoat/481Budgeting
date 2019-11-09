@@ -45,6 +45,10 @@ namespace App4
             }
             await Navigation.PushAsync(new Navigation());
         }
+        private async void Cancel_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new MainPage());
+        }
     }
 
 }

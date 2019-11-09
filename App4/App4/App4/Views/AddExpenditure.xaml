@@ -4,7 +4,8 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="App4.AddExpenditure">
+             x:Class="App4.AddExpenditure"
+            NavigationPage.HasNavigationBar="False">
     <ContentPage.Content>
         <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="Navy" Padding="10">
 
@@ -28,7 +29,7 @@
             WidthRequest="300"
             Keyboard="Numeric"
             />
-
+            <Label/>
             <Picker x:Name="CategoryPicker" Title="            Select Category" BackgroundColor="Navy" TitleColor="White" FontSize="30" TextColor="White">
                 <Picker.ItemsSource>
                     <x:Array Type="{x:Type x:String}">
@@ -40,7 +41,7 @@
                     </x:Array>
                 </Picker.ItemsSource>
             </Picker>
-
+            <Label/>
             <Entry
                 x:Name="EnteredDescription"
             Placeholder="    Other Infomarion"
@@ -53,7 +54,7 @@
             WidthRequest="300"
              
             />
-
+            <Label/>
             <Button
             Text="Add Expense"
             VerticalOptions="Center"
@@ -62,7 +63,16 @@
             TextColor="White"
             FontSize="30"
             Clicked="AddExpense_Clicked"
-             
+            />
+            <Label/>
+            <Button
+            Text="Cancel"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+            BackgroundColor="Navy"
+            TextColor="White"
+            FontSize="30"
+            Clicked="Cancel_Clicked"
             />
 
         </StackLayout>

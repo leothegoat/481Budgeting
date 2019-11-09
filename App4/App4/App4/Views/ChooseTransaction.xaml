@@ -4,7 +4,8 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="App4.ChooseTransaction">
+             x:Class="App4.ChooseTransaction"
+            NavigationPage.HasNavigationBar="False">
     <ContentPage.Content>
         <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="Navy">
             <Image
@@ -35,7 +36,7 @@
             
           
             <Label/>
-            <Label/>
+
             
             <Button
                 Text="Deposit"
@@ -43,6 +44,14 @@
                 TextColor="White"
                 BackgroundColor="Navy"
                 Clicked="AddDeposit_Clicked"
+                />
+            <Label/>
+            <Button
+                Text="Back"
+                FontSize="Large"
+                TextColor="White"
+                BackgroundColor="Navy"
+                Clicked="Cancel_Clicked"
                 />
         </StackLayout>
     </ContentPage.Content>

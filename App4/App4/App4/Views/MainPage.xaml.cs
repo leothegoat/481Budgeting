@@ -16,6 +16,12 @@ namespace App4
         public MainPage()
         {
             InitializeComponent();
+            UsernameEntry.Completed += PasswordEntry_Complete;
+            PasswordEntry.Completed += Login_Clicked;
+        }
+        public void PasswordEntry_Complete(object sender, EventArgs e)
+        {
+            PasswordEntry.Focus();
         }
 
         private async void Register_Clicked(object sender, EventArgs e)

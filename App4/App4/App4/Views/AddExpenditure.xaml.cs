@@ -34,5 +34,9 @@ namespace App4
                 }
             }
         }
+        private void Cancel_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new ChooseTransaction());
+        }
     }
 }

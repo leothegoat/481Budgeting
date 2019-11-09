@@ -33,5 +33,9 @@ namespace App4
                 UsernameListView.ItemsSource = user;
             }
         }
+        private async void Cancel_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Navigation());
+        }
     }
 }
