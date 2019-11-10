@@ -20,6 +20,11 @@ namespace App4
             UsernameEntry.Completed += PasswordEntry_Complete;
             PasswordEntry.Completed += Login_Clicked;
         }
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+            UsernameEntry.Focus();
+        }
         public void PasswordEntry_Complete(object sender, EventArgs e)
         {
             PasswordEntry.Focus();
@@ -50,9 +55,9 @@ namespace App4
             {
                 DisplayAlert("Error", "Incorrect Password", "Retry");
             }
-            else
+            else if(user.password == PasswordEntry.Text)
             {
-
+                DisplayAlert("Welcome Back!", user.username, "Ok");
                 await Navigation.PushAsync(new Navigation());
             }
             
