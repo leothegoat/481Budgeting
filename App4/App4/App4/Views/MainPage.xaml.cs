@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SQLite;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
@@ -31,7 +32,30 @@ namespace App4
 
         private async void Login_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new Navigation());
+            UserModel user;
+            using (SQLiteConnection conn = new SQLiteConnection(App.FilePath))
+            {
+                conn.CreateTable<UserModel>();
+                user = conn.FindWithQuery<UserModel>("select * from UserModel where username=?", UsernameEntry.Text);
+            }
+            if (String.IsNullOrWhiteSpace(UsernameEntry.Text)|| String.IsNullOrWhiteSpace(PasswordEntry.Text))
+            {
+                DisplayAlert("Error", "Incorrect Username or Password", "Retry");
+            }
+            else if(user == null)
+            {
+                DisplayAlert("Error", "Username not Found please try again or create an account!", "Retry");
+            }
+            else if(user.password != PasswordEntry.Text)
+            {
+                DisplayAlert("Error", "Incorrect Password", "Retry");
+            }
+            else
+            {
+
+                await Navigation.PushAsync(new Navigation());
+            }
+            
         }
     }
 }
