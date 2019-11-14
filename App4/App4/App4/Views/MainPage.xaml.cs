@@ -45,20 +45,20 @@ namespace App4
             }
             if (String.IsNullOrWhiteSpace(UsernameEntry.Text)|| String.IsNullOrWhiteSpace(PasswordEntry.Text))
             {
-                DisplayAlert("Error", "Incorrect Username or Password", "Retry");
+                await DisplayAlert("Error", "Incorrect Username or Password", "Retry");
             }
             else if(user == null)
             {
-                DisplayAlert("Error", "Username not Found please try again or create an account!", "Retry");
+                await DisplayAlert("Error", "Username not Found please try again or create an account!", "Retry");
             }
             else if(user.password != PasswordEntry.Text)
             {
-                DisplayAlert("Error", "Incorrect Password", "Retry");
+                await DisplayAlert("Error", "Incorrect Password", "Retry");
             }
             else if(user.password == PasswordEntry.Text)
             {
-                DisplayAlert("Welcome Back!", user.username, "Ok");
-                await Navigation.PushAsync(new Navigation());
+                await DisplayAlert("Welcome Back!", user.username, "Ok");
+                await Navigation.PushAsync(new Navigation(user.Id));
             }
             
         }

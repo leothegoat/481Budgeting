@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SQLite;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,9 +13,15 @@ namespace App4
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class AddDeposit : ContentPage
     {
-        public AddDeposit()
+        UserModel user;
+        public AddDeposit(int id)
         {
             InitializeComponent();
+            using (SQLiteConnection conn = new SQLiteConnection(App.FilePath))
+            {
+                conn.CreateTable<UserModel>();
+                user = conn.FindWithQuery<UserModel>("select * from UserModel where id=?", id);
+            }
         }
         private void AddDeposit_Clicked(object sender, EventArgs e)
         {
@@ -26,13 +33,13 @@ namespace App4
                 Nullable<double> amount = Convert.ToDouble(EnteredDeposit.Text);
                 amount = Math.Round(amount.Value, 2);
                 DisplayAlert("Deposited", amount.ToString(), "Okay");
-                Navigation.PushAsync(new Navigation());
+                Navigation.PushAsync(new Navigation(user.Id));
             }
         }
 
         private void Cancel_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new ChooseTransaction());
+            Navigation.PushAsync(new ChooseTransaction(user.Id));
         }
     }
 }

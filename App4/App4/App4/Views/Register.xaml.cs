@@ -38,12 +38,23 @@ namespace App4
                 Email = EmailEntry.Text
 
             };
-            using(SQLiteConnection conn = new SQLiteConnection(App.FilePath))
+            using (SQLiteConnection conn = new SQLiteConnection(App.FilePath))
             {
                 conn.CreateTable<UserModel>();
-                int rowsAdded = conn.Insert(user);
+                user = conn.FindWithQuery<UserModel>("select * from UserModel where username=?", user.username);
             }
-            await Navigation.PushAsync(new Navigation());
+            if (user.username == null) {
+                using (SQLiteConnection conn = new SQLiteConnection(App.FilePath))
+                {
+                    conn.CreateTable<UserModel>();
+                    conn.Insert(user);
+                }
+                await Navigation.PushAsync(new Navigation(user.Id));
+             }
+            else
+            {
+               await DisplayAlert("Alert", "User already exists please cancel or use another username.", "OK");
+            }
         }
         private async void Cancel_Clicked(object sender, EventArgs e)
         {
