@@ -32,7 +32,7 @@
             <Label/>
             <Picker x:Name="CategoryPicker" Title="            Select Category" BackgroundColor="Navy" TitleColor="White" FontSize="30" TextColor="White">
                 <Picker.ItemsSource>
-                    <x:Array Type="{x:Type x:String}">
+                    <x:Array  Type="{x:Type x:String}">
                         <x:String>Food</x:String>
                         <x:String>Entertainment</x:String>
                         <x:String>Transportation</x:String>

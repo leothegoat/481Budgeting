@@ -33,10 +33,10 @@ namespace App4
 
             using (SQLiteConnection conn = new SQLiteConnection(App.FilePath))
             {
-                conn.CreateTable<UserModel>();
-                var user = conn.Table<UserModel>().ToList();
+                conn.CreateTable<TransactionTable>();
+                var tranactions = conn.Table<TransactionTable>().ToList();
 
-                UsernameListView.ItemsSource = user;
+                UsernameListView.ItemsSource = tranactions;
             }
         }
         private async void Cancel_Clicked(object sender, EventArgs e)

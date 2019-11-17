@@ -19,7 +19,9 @@
             <ListView x:Name="UsernameListView">
                 <ListView.ItemTemplate>
                     <DataTemplate>
-                        <TextCell Text="{Binding username}"
+                        <TextCell Text="{Binding type}"
+                            Detail="{Binding amount}"
+                               
                             TextColor="Black"/>
                     </DataTemplate>
                 </ListView.ItemTemplate>

@@ -46,12 +46,6 @@ namespace App4
 
             }
             if (check == null) {
-                /*if (check.username == user.username)
-                {
-                    await DisplayAlert("Alert", "User already exists please cancel or use another username.", "OK");
-                }*/
-                //else
-                //{
                     using (SQLiteConnection conn = new SQLiteConnection(App.FilePath))
                     {
                         conn.CreateTable<UserModel>();
@@ -59,13 +53,11 @@ namespace App4
                     }
                     await DisplayAlert("Account Created for ", user.username, "Ok");
                     await Navigation.PushAsync(new Navigation(user.Id));
-                //}
                 
              }
             else
-            {
                 await DisplayAlert("Alert", "User already exists please cancel or use another username.", "OK");
-            }
+            
         }
         private async void Cancel_Clicked(object sender, EventArgs e)
         {
