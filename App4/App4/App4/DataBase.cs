@@ -16,6 +16,7 @@ namespace App4
             _DB = new SQLiteAsyncConnection(dbpath);
             _DB.CreateTableAsync<UserModel>().Wait();
             _DB.CreateTableAsync<TransactionTable>().Wait();
+            _DB.CreateTableAsync<Account>().Wait();
         }
 
       /* public Task<List<UserModel>> GetUserAsync()

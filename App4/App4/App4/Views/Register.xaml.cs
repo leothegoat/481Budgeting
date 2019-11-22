@@ -16,6 +16,7 @@ namespace App4
         public Register()
         {
             InitializeComponent();
+            
             EmailEntry.Completed += UsernameEntry_Completed;
             UsernameEntry.Completed += PasswordEntry_Completed;
             PasswordEntry.Completed += CreateAccount_Clicked;
@@ -51,7 +52,24 @@ namespace App4
                         conn.CreateTable<UserModel>();
                         conn.Insert(user);
                     }
-                    await DisplayAlert("Account Created for ", user.username, "Ok");
+                Account account = new Account()
+                {
+                    dep = 0,
+                    bal = 0,
+                    spent = 0,
+                    foodSpent = 0,
+                    entSpent = 0,
+                    tranSpent = 0,
+                    billSpent = 0,
+                    otherSpent = 0,
+                    uId = user.Id
+                };
+                using (SQLiteConnection conn = new SQLiteConnection(App.FilePath))
+                {
+                    conn.CreateTable<Account>();
+                    conn.Insert(account);
+                }
+                await DisplayAlert("Account Created for ", user.username, "Ok");
                     await Navigation.PushAsync(new Navigation(user.Id));
                 
              }

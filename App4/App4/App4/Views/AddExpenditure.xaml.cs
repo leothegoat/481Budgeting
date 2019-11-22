@@ -60,15 +60,16 @@ namespace App4
                         type = "Expense",
                         category = value,
                         UserID = user.Id,
-                        shit = "Type: " + value + " Category: Expense",
+                        //shit = "Type: " + value + " Category: Expense",
 
                     };
-                    transaction.shit = "Type = "+ transaction.type+"        Category = "+ transaction.category;
+                    transaction.shit = "Type: "+ transaction.type+"        Category: "+ transaction.category;
                     using (SQLiteConnection conn = new SQLiteConnection(App.FilePath))
                     {
                         conn.CreateTable<TransactionTable>();
                         conn.Insert(transaction);
                     }
+                   
                     DisplayAlert("Added Expense", amountEx.ToString(), "Okay");
                     Navigation.PushAsync(new Navigation(user.Id));
                 }
