@@ -34,6 +34,7 @@ namespace App4
             using (SQLiteConnection conn = new SQLiteConnection(App.FilePath))
             {
                 conn.CreateTable<TransactionTable>();
+                //conn.DeleteAll<TransactionTable>();
                 var tranactions = conn.Table<TransactionTable>().ToList();
 
                 UsernameListView.ItemsSource = tranactions;

@@ -17,5 +17,6 @@ namespace App4
         //public string date { get; set; }
         public string category { get; set; } //Cat for Deposit will be "Deposit"
         public string description { get; set; } //Gives a description of purchase (Expense only)
+        public string shit { get; set; }
     }
 }

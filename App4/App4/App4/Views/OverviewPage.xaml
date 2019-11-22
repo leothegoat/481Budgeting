@@ -19,10 +19,10 @@
             <ListView x:Name="UsernameListView">
                 <ListView.ItemTemplate>
                     <DataTemplate>
-                        <TextCell Text="{Binding type}"
-                            Detail="{Binding amount}"
-                               
-                            TextColor="Black"/>
+                        <TextCell Text="{Binding shit}"
+                            Detail="{Binding amount, StringFormat='${0}'}"
+                            TextColor="White"
+                             DetailColor="White"/>
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>

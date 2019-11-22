@@ -59,9 +59,11 @@ namespace App4
                         amount = Convert.ToDouble(amountEx),
                         type = "Expense",
                         category = value,
-                        UserID = user.Id
+                        UserID = user.Id,
+                        shit = "Type: " + value + " Category: Expense",
 
                     };
+                    transaction.shit = "Type = "+ transaction.type+"        Category = "+ transaction.category;
                     using (SQLiteConnection conn = new SQLiteConnection(App.FilePath))
                     {
                         conn.CreateTable<TransactionTable>();
