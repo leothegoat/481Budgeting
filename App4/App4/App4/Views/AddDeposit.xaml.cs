@@ -30,9 +30,16 @@ namespace App4
 
             else
             {
-                Nullable<double> amount = Convert.ToDouble(EnteredDeposit.Text);
-                amount = Math.Round(amount.Value, 2);
-                DisplayAlert("Deposited", amount.ToString(), "Okay");
+                Nullable<double> amountDep = Convert.ToDouble(EnteredDeposit.Text);
+                amountDep = Math.Round(amountDep.Value, 2);
+                TransactionTable transaction = new TransactionTable()
+                {
+                    amount = Convert.ToDouble(amountDep),
+                    type = "Deposit",
+                    category = "",
+                    UserID = user.Id,
+                };
+                DisplayAlert("Deposited", amountDep.ToString(), "Okay");
                 Navigation.PushAsync(new Navigation(user.Id));
             }
         }

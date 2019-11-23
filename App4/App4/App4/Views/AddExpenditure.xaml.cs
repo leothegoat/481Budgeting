@@ -25,18 +25,7 @@ namespace App4
         }
         private void AddExpense_Clicked(object sender, EventArgs e)
         {
-            //Picker picker = sender as Picker;
-            var selected = CategoryPicker.SelectedItem;
-            var value = selected.ToString();
-
-            /*TransactionTable transaction;
-            transaction.amount = EnteredExpense.Text;
-            transaction.type = "Exense";
-            transaction.category = value;
-            transaction.UserID = user.Id;*/
-
-
-
+            
             if (String.IsNullOrWhiteSpace(EnteredExpense.Text) == true)
                 DisplayAlert("Error", "Please Enter A Valid Amount and Selected Category", "Retry");
 
@@ -47,21 +36,15 @@ namespace App4
                     DisplayAlert("Error", "Please Enter A Valid Amount and Selected Category", "Retry");
              
                 else{
-                   // Nullable<double> amount = Convert.ToDouble(EnteredExpense.Tex);
                     amountEx = Math.Round(amountEx.Value, 2);
-                    //TransactionTable transaction;
-                    /*transaction.amount = Convert.ToDouble(amount); 
-                    transaction.type = "Exense";
-                    transaction.category = value;
-                    transaction.UserID = user.Id;*/
+                    var selected = CategoryPicker.SelectedItem;
+                    var value = selected.ToString();
                     TransactionTable transaction = new TransactionTable()
                     {
                         amount = Convert.ToDouble(amountEx),
                         type = "Expense",
                         category = value,
                         UserID = user.Id,
-                        //shit = "Type: " + value + " Category: Expense",
-
                     };
                     transaction.shit = "Type: "+ transaction.type+"        Category: "+ transaction.category;
                     using (SQLiteConnection conn = new SQLiteConnection(App.FilePath))

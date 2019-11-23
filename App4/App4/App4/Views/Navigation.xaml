@@ -39,7 +39,7 @@
 
             <Button
             x:Name="ViewTransaction"
-            Text="Views Transaction History"
+            Text="View Transaction History"
             FontSize="Medium"
             BackgroundColor="Navy"
             TextColor="White"
