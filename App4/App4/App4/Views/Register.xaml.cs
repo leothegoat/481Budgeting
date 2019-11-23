@@ -54,10 +54,10 @@ namespace App4
                     }
                 Account account = new Account()
                 {
-                    dep = 0,
-                    bal = 0,
-                    spent = 0,
-                    foodSpent = 0,
+                    dep = 0, //money going in
+                    bal = 0, // deposit - spent
+                    spent = 0, // total spent, money going out
+                    foodSpent = 0, 
                     entSpent = 0,
                     tranSpent = 0,
                     billSpent = 0,

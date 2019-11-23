@@ -39,6 +39,17 @@ namespace App4
                     category = "",
                     UserID = user.Id,
                 };
+                transaction.shit = "Type: " + transaction.type; //"        Category: " + transaction.category;
+                using (SQLiteConnection conn = new SQLiteConnection(App.FilePath))
+                {
+                    conn.CreateTable<TransactionTable>();
+                    conn.Insert(transaction);
+                    Account acc = conn.FindWithQuery<Account>("Select* From Account Where uId=?", user.Id);
+                    acc.dep += Convert.ToDouble(amountDep);
+                    acc.bal += Convert.ToDouble(amountDep);
+                    conn.Update(acc);
+                }
+
                 DisplayAlert("Deposited", amountDep.ToString(), "Okay");
                 Navigation.PushAsync(new Navigation(user.Id));
             }

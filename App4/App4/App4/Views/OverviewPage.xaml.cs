@@ -27,19 +27,7 @@ namespace App4
         {
             await Navigation.PushAsync(new Navigation(user.Id));
         }
-        protected override void OnAppearing()
-        {
-            base.OnAppearing();
-
-            using (SQLiteConnection conn = new SQLiteConnection(App.FilePath))
-            {
-                conn.CreateTable<TransactionTable>();
-                
-                var tranactions = conn.Table<TransactionTable>().ToList();
-
-                UsernameListView.ItemsSource = tranactions;
-            }
-        }
+        
         private async void Cancel_Clicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new Navigation(user.Id));

@@ -47,12 +47,31 @@ namespace App4
                         UserID = user.Id,
                     };
                     transaction.shit = "Type: "+ transaction.type+"        Category: "+ transaction.category;
+                    Account acc;
                     using (SQLiteConnection conn = new SQLiteConnection(App.FilePath))
                     {
                         conn.CreateTable<TransactionTable>();
                         conn.Insert(transaction);
+                        acc = conn.FindWithQuery<Account>("Select* From Account Where uId=?", user.Id);
+                        acc.spent += Convert.ToDouble(amountEx);
+                        acc.bal -= Convert.ToDouble(amountEx);
+                        if (value == "Food")                        
+                            acc.foodSpent+= Convert.ToDouble(amountEx);
+
+                        else if (value == "Entertainment")
+                            acc.entSpent += Convert.ToDouble(amountEx);
+                        
+                        else if (value == "Transportation")
+                            acc.tranSpent += Convert.ToDouble(amountEx);
+                        
+                        else if (value == "Bills")
+                            acc.billSpent += Convert.ToDouble(amountEx);
+                        
+                        else
+                            acc.otherSpent += Convert.ToDouble(amountEx);
+                        conn.Update(acc);
                     }
-                   
+                    DisplayAlert(acc.spent.ToString(), acc.bal.ToString(), "Okay");
                     DisplayAlert("Added Expense", amountEx.ToString(), "Okay");
                     Navigation.PushAsync(new Navigation(user.Id));
                 }

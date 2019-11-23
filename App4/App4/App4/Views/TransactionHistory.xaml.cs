@@ -23,6 +23,19 @@ namespace App4
                 user = conn.FindWithQuery<UserModel>("select * from UserModel where id=?", id);
             }
         }
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+
+            using (SQLiteConnection conn = new SQLiteConnection(App.FilePath))
+            {
+                conn.CreateTable<TransactionTable>();
+
+                var tranactions = conn.Table<TransactionTable>().ToList();
+
+                UsernameListView.ItemsSource = tranactions;
+            }
+        }
         private async void Navigation_Clicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new Navigation(user.Id));

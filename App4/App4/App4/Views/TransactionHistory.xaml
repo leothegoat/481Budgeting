@@ -13,9 +13,22 @@
             <Label Text="Transaction History" VerticalOptions="Start" FontSize="30"
                    HorizontalOptions="Center" TextColor="White">
             </Label>
+            <Label Text="Overview" VerticalOptions="Start" FontSize="30"
+                   HorizontalOptions="Center" TextColor="White">
+            </Label>
             <Label></Label>
             <Label></Label>
             <Label></Label>
+            <ListView x:Name="UsernameListView">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextCell Text="{Binding shit}"
+                            Detail="{Binding amount, StringFormat='${0}'}"
+                            TextColor="White"
+                             DetailColor="White"/>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
             <Label></Label>
             <Label></Label>
             <Label></Label>
