@@ -369,3 +369,9 @@ C:\Users\leoth\Desktop\Nov16\App4\App4\App4.iOS\obj\iPhoneSimulator\Debug\XamlC.
 C:\Users\leoth\Desktop\Nov16\App4\App4\App4.iOS\obj\iPhoneSimulator\Debug\App4.iOS.csproj.CopyComplete
 C:\Users\leoth\Desktop\Nov16\App4\App4\App4.iOS\obj\iPhoneSimulator\Debug\App4.iOS.exe
 C:\Users\leoth\Desktop\Nov16\App4\App4\App4.iOS\obj\iPhoneSimulator\Debug\App4.iOS.pdb
+C:\Users\javin\OneDrive\Documents\GitHub\481Budgeting\App4\App4\App4.iOS\bin\iPhoneSimulator\Debug\Microcharts.Forms.dll
+C:\Users\javin\OneDrive\Documents\GitHub\481Budgeting\App4\App4\App4.iOS\bin\iPhoneSimulator\Debug\SkiaSharp.dll
+C:\Users\javin\OneDrive\Documents\GitHub\481Budgeting\App4\App4\App4.iOS\bin\iPhoneSimulator\Debug\SkiaSharp.Views.iOS.dll
+C:\Users\javin\OneDrive\Documents\GitHub\481Budgeting\App4\App4\App4.iOS\bin\iPhoneSimulator\Debug\SkiaSharp.Views.Forms.dll
+C:\Users\javin\OneDrive\Documents\GitHub\481Budgeting\App4\App4\App4.iOS\bin\iPhoneSimulator\Debug\Microcharts.dll
+C:\Users\javin\OneDrive\Documents\GitHub\481Budgeting\App4\App4\App4.iOS\bin\iPhoneSimulator\Debug\Microcharts.iOS.dll

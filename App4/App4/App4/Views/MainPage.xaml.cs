@@ -25,8 +25,8 @@ namespace App4
             base.OnAppearing();
             UsernameEntry.Focus();
             using (SQLiteConnection conn = new SQLiteConnection(App.FilePath)) {
-                conn.DeleteAll<TransactionTable>();
-                conn.DeleteAll<UserModel>();
+            //    conn.DeleteAll<TransactionTable>();
+            //    conn.DeleteAll<UserModel>();
             }
 
 
