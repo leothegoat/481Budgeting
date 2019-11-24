@@ -71,8 +71,8 @@ namespace App4
                             acc.otherSpent += Convert.ToDouble(amountEx);
                         conn.Update(acc);
                     }
-                    DisplayAlert(acc.spent.ToString(), acc.bal.ToString(), "Okay");
-                    DisplayAlert("Added Expense", amountEx.ToString(), "Okay");
+                    
+                    DisplayAlert("Added Expense", "$"+amountEx.ToString(), "Okay");
                     Navigation.PushAsync(new Navigation(user.Id));
                 }
             }

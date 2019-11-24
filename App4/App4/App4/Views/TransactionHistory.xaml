@@ -13,9 +13,6 @@
             <Label Text="Transaction History" VerticalOptions="Start" FontSize="30"
                    HorizontalOptions="Center" TextColor="White">
             </Label>
-            <Label Text="Overview" VerticalOptions="Start" FontSize="30"
-                   HorizontalOptions="Center" TextColor="White">
-            </Label>
             <Label></Label>
             <Label></Label>
             <Label></Label>

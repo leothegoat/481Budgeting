@@ -30,10 +30,14 @@ namespace App4
             using (SQLiteConnection conn = new SQLiteConnection(App.FilePath))
             {
                 conn.CreateTable<TransactionTable>();
-
+                List<TransactionTable> p = new List<TransactionTable>();
                 var tranactions = conn.Table<TransactionTable>().ToList();
-
-                UsernameListView.ItemsSource = tranactions;
+                foreach(TransactionTable item in tranactions)
+                {
+                    if (item.UserID == user.Id)
+                        p.Add(item);  
+                }
+                UsernameListView.ItemsSource = p;
             }
         }
         private async void Navigation_Clicked(object sender, EventArgs e)

@@ -50,7 +50,7 @@ namespace App4
                     conn.Update(acc);
                 }
 
-                DisplayAlert("Deposited", amountDep.ToString(), "Okay");
+                DisplayAlert("Deposited","$"+amountDep.ToString(), "Okay");
                 Navigation.PushAsync(new Navigation(user.Id));
             }
         }

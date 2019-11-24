@@ -11,25 +11,39 @@
     <ContentPage.Content>
         <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="Navy">
             <BoxView Color="Navy"/>
-            
-            
-            <Button x:Name="TransactionHistory" Text="Transaction History" TextColor="White" FontSize="20" 
-                    BackgroundColor="Navy" VerticalOptions="End" HorizontalOptions="Center"></Button>
-            <Button x:Name="NavButton" Text="Back" TextColor="White" FontSize="20" 
-                    BackgroundColor="Navy" VerticalOptions="End" HorizontalOptions="Center" Clicked="Navigation_Clicked"></Button>
 
+
+            <Label 
+                x:Name="Overview" 
+                Text="Overview" 
+                TextColor="White" FontSize="20" 
+                BackgroundColor="Navy" 
+                VerticalOptions="End" 
+                HorizontalOptions="Center"/>
+            <Label/>
+            <Label/>
+            <Label/>
+            <Label/>
+            <Label/>
 
             <forms:ChartView
                 x:Name="Chart1"
-                HeightRequest="300"
-                BackgroundColor="Navy"
+                HeightRequest="220"
                 />
+            <Label/>
+            
+            <Label/>
+            <Label/>
+            <Label/>
+            <Label/>
+            <Label/>
             <Button
             Text="Cancel"   
             FontSize="Medium"
             BackgroundColor="Navy"
             TextColor="White"
             HorizontalOptions="Center"
+            VerticalOptions="End"
             Clicked="Cancel_Clicked"
                 />
         </StackLayout>

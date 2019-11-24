@@ -33,37 +33,53 @@ namespace App4
                 conn.CreateTable<Account>();
                 acc = conn.FindWithQuery<Account>("select * from Account where uId=?", user.Id);
             }
-            float bills =(float)acc.billSpent;
             List<Entry> entries = new List<Entry>
             {
                 
-                new Entry(bills)
+                new Entry((float)acc.billSpent)
                 {
                     Color = SkiaSharp.SKColor.Parse("#ff0000"),
-                    ValueLabel=Convert.ToString(bills),
+                    ValueLabel="$"+Convert.ToString(acc.billSpent),
                     Label = "Bills"
                 },
                 new Entry((float)acc.entSpent)
                 {
                     Color = SkiaSharp.SKColor.Parse("#008000"),
-                    ValueLabel=Convert.ToString(acc.entSpent),
+                    ValueLabel="$"+Convert.ToString(acc.entSpent),
                     Label = "Entertainment"
                 },
+
                 new Entry((float)acc.tranSpent)
                 {
                     Color = SkiaSharp.SKColor.Parse("#800080"),
-                    ValueLabel=Convert.ToString(acc.tranSpent),
+                    ValueLabel="$"+Convert.ToString(acc.tranSpent),
                     Label = "Transportation"
                 },
+
                 new Entry((float)acc.otherSpent)
                 {
-                    Color = SkiaSharp.SKColor.Parse("#000000"),
-                    ValueLabel=Convert.ToString(acc.otherSpent),
+                    Color = SkiaSharp.SKColor.Parse("#ff8c00"),
+                    ValueLabel="$"+Convert.ToString(acc.otherSpent),
                     Label = "Other"
+                },
+                
+                new Entry((float)acc.foodSpent)
+                {
+                    Color = SkiaSharp.SKColor.Parse("#ffff00"),
+                    ValueLabel="$"+Convert.ToString(acc.foodSpent),
+                    Label = "Food",
                 }
             };
-            Chart1.Chart.BackgroundColor = SkiaSharp.SKColor.Parse("#00008b");
-            Chart1.Chart = new Microcharts.DonutChart { Entries = entries };
+
+            Chart1.Chart = new Microcharts.DonutChart {
+                Entries = entries,
+                BackgroundColor = SkiaSharp.SKColor.Parse("#000080"),
+                LabelTextSize = 30,
+                HoleRadius = .6f,
+                Margin = 35
+                
+                
+        };
         }
             private async void Navigation_Clicked(object sender, EventArgs e)
         {
