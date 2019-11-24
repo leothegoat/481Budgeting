@@ -40,27 +40,31 @@ namespace App4
                 {
                     Color = SkiaSharp.SKColor.Parse("#ff0000"),
                     ValueLabel="$"+Convert.ToString(acc.billSpent),
-                    Label = "Bills"
+                    Label = "Bills",
+                    TextColor = SkiaSharp.SKColor.Parse("#ffffff")
                 },
                 new Entry((float)acc.entSpent)
                 {
                     Color = SkiaSharp.SKColor.Parse("#008000"),
                     ValueLabel="$"+Convert.ToString(acc.entSpent),
-                    Label = "Entertainment"
+                    Label = "Entertainment",
+                    TextColor = SkiaSharp.SKColor.Parse("#ffffff")
                 },
 
                 new Entry((float)acc.tranSpent)
                 {
                     Color = SkiaSharp.SKColor.Parse("#800080"),
                     ValueLabel="$"+Convert.ToString(acc.tranSpent),
-                    Label = "Transportation"
+                    Label = "Transportation",
+                    TextColor = SkiaSharp.SKColor.Parse("#ffffff")
                 },
 
                 new Entry((float)acc.otherSpent)
                 {
                     Color = SkiaSharp.SKColor.Parse("#ff8c00"),
                     ValueLabel="$"+Convert.ToString(acc.otherSpent),
-                    Label = "Other"
+                    Label = "Other",
+                    TextColor = SkiaSharp.SKColor.Parse("#ffffff")
                 },
                 
                 new Entry((float)acc.foodSpent)
@@ -68,18 +72,17 @@ namespace App4
                     Color = SkiaSharp.SKColor.Parse("#ffff00"),
                     ValueLabel="$"+Convert.ToString(acc.foodSpent),
                     Label = "Food",
+                    TextColor = SkiaSharp.SKColor.Parse("#ffffff")
                 }
             };
 
             Chart1.Chart = new Microcharts.DonutChart {
                 Entries = entries,
                 BackgroundColor = SkiaSharp.SKColor.Parse("#000080"),
-                LabelTextSize = 30,
-                HoleRadius = .6f,
-                Margin = 35
-                
-                
-        };
+                LabelTextSize = 25,
+                HoleRadius = .8f,
+                Margin = 35,          
+            };
         }
             private async void Navigation_Clicked(object sender, EventArgs e)
         {

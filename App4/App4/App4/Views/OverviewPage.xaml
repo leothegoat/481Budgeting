@@ -16,10 +16,11 @@
             <Label 
                 x:Name="Overview" 
                 Text="Overview" 
-                TextColor="White" FontSize="20" 
-                BackgroundColor="Navy" 
-                VerticalOptions="End" 
-                HorizontalOptions="Center"/>
+                TextColor="White" 
+                FontSize="20" 
+                BackgroundColor="Navy"  
+                HorizontalOptions="Center"
+                />
             <Label/>
             <Label/>
             <Label/>
@@ -28,7 +29,7 @@
 
             <forms:ChartView
                 x:Name="Chart1"
-                HeightRequest="220"
+                HeightRequest="250"
                 />
             <Label/>
             
@@ -43,7 +44,6 @@
             BackgroundColor="Navy"
             TextColor="White"
             HorizontalOptions="Center"
-            VerticalOptions="End"
             Clicked="Cancel_Clicked"
                 />
         </StackLayout>
