@@ -42,7 +42,7 @@
             HorizontalOptions="Center"
             BackgroundColor="Navy"
             TextColor="White"
-            FontSize="45"
+            FontSize="Large"
             Clicked="AddDeposit_Clicked"
             />
             <Button
@@ -51,7 +51,7 @@
             HorizontalOptions="Center"
             BackgroundColor="Navy"
             TextColor="White"
-            FontSize="45"
+            FontSize="Large"
             Clicked="Cancel_Clicked"
             />
         </StackLayout>

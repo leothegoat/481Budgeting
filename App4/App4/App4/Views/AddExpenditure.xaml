@@ -8,7 +8,9 @@
             NavigationPage.HasNavigationBar="False">
     <ContentPage.Content>
         <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="Navy" Padding="10">
-
+            <Label></Label>
+            <Label></Label>
+            <Label></Label>
             <Label
                 HorizontalOptions="Center"
                 TextColor="White"
@@ -18,19 +20,19 @@
                 />
 
             <Entry x:Name="EnteredExpense"
-            Placeholder="           $0"
+            Placeholder="                    $0"
             PlaceholderColor="White"
             FontAttributes="Bold"
             BackgroundColor="Navy"
             VerticalOptions="Start"
             HorizontalOptions="CenterAndExpand"
-            FontSize="40"
+            FontSize="34"
             TextColor="White"
-            WidthRequest="300"
+            WidthRequest="500"
             Keyboard="Numeric"
             />
             <Label/>
-            <Picker x:Name="CategoryPicker" Title="            Select Category" BackgroundColor="Navy" TitleColor="White" FontSize="30" TextColor="White">
+            <Picker x:Name="CategoryPicker" Title="         Select Category" BackgroundColor="Navy" TitleColor="White" FontSize="34" TextColor="White">
                 <Picker.ItemsSource>
                     <x:Array  Type="{x:Type x:String}">
                         <x:String>Food</x:String>
@@ -44,9 +46,9 @@
             <Label/>
             <Entry
                 x:Name="EnteredDescription"
-            Placeholder="    Other Infomarion"
+            Placeholder="              Other Infomarion"
             PlaceholderColor="White"
-            FontSize="30"
+            FontSize="20"
             BackgroundColor="Navy"
             VerticalOptions="Start"
             HorizontalOptions="CenterAndExpand"
@@ -61,7 +63,7 @@
             HorizontalOptions="Center"
             BackgroundColor="Navy"
             TextColor="White"
-            FontSize="30"
+            FontSize="Large"
             Clicked="AddExpense_Clicked"
             />
             <Label/>
@@ -71,7 +73,7 @@
             HorizontalOptions="Center"
             BackgroundColor="Navy"
             TextColor="White"
-            FontSize="30"
+            FontSize="Large"
             Clicked="Cancel_Clicked"
             />
 
